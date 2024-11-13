@@ -13,16 +13,24 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Nextjs page template",
-  description: "A Github repo template for nextjs with github pages ",
-  keywords: ["Github", "nextjs", "tailwind", "tailwindcss", "javascript", "react"] /* SEO */
+  title: "Mouldy Potato Website",
+  description: "The official website of Mouldy Potato",
+  keywords: [
+    "Minecraft server",
+    "Minecraft",
+    "Games",
+    "Play",
+    "Documentation",
+    "Mouldy Potato",
+  ] /* SEO */,
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta name="darkreader-lock"></meta> {/* disable dark reader assuming your page is already dark or has dark mode support */}
+        <meta name="darkreader-lock"></meta>
+        {/* disable dark reader assuming your page is already dark or has dark mode support */}
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
