@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* empty css file but: */
+
+html * {
+  transition: 1s ease;
+}
+
+/* makes your page generally smoother */
+/* custom css here(like for google fonts) */
